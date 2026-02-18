@@ -6,19 +6,14 @@ public class ObjFastFood {
     private int Cantidad;
     private double PrecioUnidad;
     private double TotalPagar;
-    private String Descripcion;
-    private String Notas;
 
 
-    public ObjFastFood(int tipo, int tamano, int cantidad, double precioUnidad, double totalPagar, String descripcion,
-            String notas) {
+    public ObjFastFood(int tipo, int tamano, int cantidad, double precioUnidad, double totalPagar){
         Tipo = tipo;
         Tamano = tamano;
         Cantidad = cantidad;
         PrecioUnidad = precioUnidad;
         TotalPagar = totalPagar;
-        Descripcion = descripcion;
-        Notas = notas;
     }
 
 
@@ -73,26 +68,6 @@ public class ObjFastFood {
 
     public void setTotalPagar(double totalPagar) {
         TotalPagar = totalPagar;
-    }
-
-
-    public String getDescripcion() {
-        return Descripcion;
-    }
-
-
-    public void setDescripcion(String descripcion) {
-        Descripcion = descripcion;
-    }
-
-
-    public String getNotas() {
-        return Notas;
-    }
-
-
-    public void setNotas(String notas) {
-        Notas = notas;
     }
     
 }
